@@ -21,7 +21,7 @@ jobs:
   build_and_push:
     runs-on: ubuntu-latest
     needs: test
-    permission:
+    permissions:
       content: read
       package: write
     steps:
